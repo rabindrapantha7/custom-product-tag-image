@@ -1,0 +1,13 @@
+{
+  "name": "your-vendor/custom-product-tag-image",
+  "description": "WooCommerce extension to customize product tag images and display settings.",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "CustomProductTagImage\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
